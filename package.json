@@ -5,10 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "font-install":"cd font-end && npm install",
-    "font-build":"cd font-end && npm run build",
-    "heroku-postbuild":"npm run font-install && npm run font-build"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
